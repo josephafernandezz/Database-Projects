@@ -1,0 +1,22 @@
+db.restaurants.insert (
+{
+    " address " : {
+       " street " : " 7th Avenue ",
+       " zipcode " : " 10024 ",
+       " building " : " 1000 ",
+       " coord " : [ -58.9557413, 31.7720266 ],
+      
+     },
+     " borough " : " Brooklyn " ,
+     " cuisine " : " BBQ ",
+     " grades" : [
+       {
+         " date " : ISODate( "2015-11-05T00:00:00Z" ),
+         " grade " : " C ",
+         " score " : 15
+       }
+   ],
+       " name " : "Big Tex ",
+       " restaurant_id" : " 61704627 "
+       }
+   )
